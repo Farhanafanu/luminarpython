@@ -1,0 +1,15 @@
+/* tag name,id,class name{ 
+    /* property:value}** */
+    /*  */
+    h1{
+        color:rgb(255,0,0);
+    }
+    h2{
+        color:hsl(304, 98%, 50%)
+    }
+    #htwo{
+        color: indigo;
+    }
+    #second{
+        color: tomato;
+    }

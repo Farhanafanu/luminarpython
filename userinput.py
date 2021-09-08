@@ -1,0 +1,5 @@
+name=input("enter your name")
+college=input("enter you college name")
+passing=input("year of passing")
+print(name,"\n",college,"\n",passing)
+print("your name\nis:",name)
