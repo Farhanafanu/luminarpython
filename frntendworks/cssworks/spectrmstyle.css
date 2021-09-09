@@ -5,10 +5,17 @@ div{
     border: 5px solid white;
     margin: 2px;
     float: left;
+    margin: left 5px ;
     
+    
+}
+body{
+    background-color: black;
 }
 #first{
     background-color:red;
+    margin-left: 5px;
+    
 }
 #second{
     background-color: gray;
@@ -23,6 +30,7 @@ div{
     background-color: olive;
 }
 h2{
+    color:white;
     text-align: center;
     font-family: 'Anton',sans-serif;
 }
