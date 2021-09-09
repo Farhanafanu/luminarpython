@@ -1,0 +1,28 @@
+div{
+    background-color: goldenrod;
+    height: 80px;
+    width: 100px;
+    border: 5px solid white;
+    margin: 2px;
+    float: left;
+    
+}
+#first{
+    background-color:red;
+}
+#second{
+    background-color: gray;
+}
+#thired{
+    background-color: indigo;
+}
+#four{
+    background-color: lightcoral;
+}
+#five{
+    background-color: olive;
+}
+h2{
+    text-align: center;
+    font-family: 'Anton',sans-serif;
+}
