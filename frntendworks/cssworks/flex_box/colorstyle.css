@@ -1,0 +1,38 @@
+.row{
+    width: auto;
+    height: 400px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.col{
+    width: 70%;
+    height: 300px;
+    background-color: green;
+    border: 1px solid black;
+}
+@media(max-width:400px){
+    .row{
+        background-color: ivory;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col{
+        background-color: red;
+        padding: 20px;
+        border: 1px solid black;
+    }
+}
+@media(min-width:400px) and (max-width:800px){
+    .row{
+        background-color: cadetblue;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col{
+        background-color: darkblue;
+        padding: 20px;
+        border: 1px solid black;
+    }
+}

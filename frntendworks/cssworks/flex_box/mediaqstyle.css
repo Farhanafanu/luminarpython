@@ -1,0 +1,21 @@
+.row{
+    width: 70%;
+    height: 300px;
+    background-color: cadetblue;
+}
+.col{
+    width: 30%;
+    background-color: olive;
+    height: 200px;
+}
+@media(max-width:550px){
+    .col{
+        background-color: orchid;
+    }
+    .col h3{
+        color: white;
+        font-size: small;
+        font-weight: 200;
+    }
+
+}
